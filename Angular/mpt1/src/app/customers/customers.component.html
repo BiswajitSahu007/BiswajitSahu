@@ -1,0 +1,18 @@
+
+
+<table id="customers" class="table table-bordered table-hover" style="padding: 10px;border: black;">
+  <thead style="background-color: forestgreen;">  <tr>
+        <th><strong>NAME</strong></th>
+        <th><strong>EMAIL</strong></th>
+        <th><strong>CONTACT</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let customer of customers'>
+        <td><h4>{{customer.name}}</h4></td>
+        <td><h4>{{customer.email}}</h4></td>
+        <td><h4 >{{customer.phone}}</h4></td>
+      </tr>
+    </tbody>
+</table>
+<br><br><br><br><br><br><br>
